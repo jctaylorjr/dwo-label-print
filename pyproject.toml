@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "dedent>=1.0.0",
     "playwright>=1.62.0",
     "pywin32>=312",
 ]

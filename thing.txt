@@ -1,0 +1,47 @@
+
+    # asset_tag = input("Enter the asset tag: ")
+    # serial_number = input("Enter the serial number: ")
+    # send_zpl_to_printer(f"ZDesigner TLP 2824", "~JC^XA^FO40,40^BAN,40,Y,Y,N,N^FD>:{P6116632}^FS^FO40,130^BAN,40,Y,Y,N,N^FD>:{7NQJDC4}^FS^XZ")
+    # send_zpl_to_printer(f"ZDesigner TLP 2824", "^XA^FO50,50^BXN,6,200,18,18^FD1jt1280@partners.org^FS^XZ")
+    with open("test_format_str_copy.prn", "r") as f:
+        dwo_label_str = f.read()
+    # dwo_label = f"""
+                # ^XA
+                # ^FO20,10
+                # ^ADN,37,20
+                # ^FD{assigned_tech}^FS
+                # ^FO20,40
+                # ^BQN,2,2
+                # ^FDQA,{url}^FS
+                # ^FO140,50
+                # ^ADN,15,12
+                # ^FD{task}^FS
+                # ^FO140,70
+                # ^ADN,15,12
+                # ^FDNew:^FS
+                # ^FO140,90
+                # ^ADN,15,12
+                # ^FD{new_device}^FS
+                # ^FO140,110
+                # ^ADN,15,12
+                # ^FDOld:^FS
+                # ^FO140,130
+                # ^ADN,15,12
+                # ^FD{old_device}^FS
+                # ^FO140,150
+                # ^ADN,15,12
+                # ^FD{recipient}^FS
+                # ^FO20,170
+                # ^ADN,15,12
+                # ^TBN,400,40
+                # ^FD{location_room}^FS
+                # ^XZ
+                # """
+    # send_zpl_to_local_printer(f"ZDesigner TLP 2824", dwo_label)
+        dwo_info_block = f"""New: {dwo_label.new_device}\&Old: {dwo_label.old_device}\&Recipient: {dwo_label.recipient}\&Location: {dwo_label.location_room}\&Department: {dwo_label.department}\&"""
+        # ^FT10,153^A@N,23,22,TT0003M_^FH\^CI28^FDNew: {new_device}^FS^CI27
+        # ^FT10,223^A@N,23,22,TT0003M_^FH\^CI28^FDOld: {old_device}^FS^CI27
+        # ^FT10,398^A@N,23,22,TT0003M_^FH\^CI28^FDRecipient: {recipient_name}^FS^CI27
+        # ^FT10,433^A@N,23,22,TT0003M_^FH\^CI28^FDLocation: {location}^FS^CI27
+        # ^FT10,468^A@N,23,22,TT0003M_^FH\^CI28^FDDepartment: {department}^FS^CI27
+        # """
