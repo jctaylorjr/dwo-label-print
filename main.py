@@ -157,7 +157,7 @@ def print_dwo_label(dwo_label: DWO_Label):
     ^PQ1,0,1,Y
     ^XZ
     """).strip()
-    send_zpl_to_network_printer("CSCDGJ244902154", dwo_label_str)
+    send_zpl_to_network_printer("DFJ240906078", dwo_label_str)
     # send_zpl_to_printer(f"ZDesigner TLP 2824", f"^XA^FO40,40^BQM,6,2^FDQA,https://partnershealthcare.service-now.com/now/nav/ui/classic/params/target/sc_task.do%3Fsys_id%3D{task}^FS^XZ")
                         # ^FDQA,https://partnershealthcare.service-now.com/now/nav/ui/classic/params/target/sc_task.do%3Fsys_id%3D{task}%26sysparm_view%3DDWO_view^FS
 
