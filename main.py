@@ -147,33 +147,33 @@ def print_dwo_label(dwo_label: DWO_Label):
         eJxjYBgFQw38h4IHEK48jP+/Acy3h/MPoCj///8DiMsIVcbAwP8DzP8BMxfCYn4At6gGRLAfgPPtsPIb4Hw5bHx+dD7DKH+UP3L57Oj8BgL8A3A+1vyHnl/R8zMjIv9DZNDKA4zyAr08GQXDGAAAoBtpvw==:8851
         ^FO224,608^GFA,04608,04608,00024,:Z64:
         eJztlztOw0AQhtexrCAaVxGlD0DBDYiPQIFFmStQEFEhu8wxItEgOIILfAQKWqSUKVNQRE7iZXfjmJnxTIHkIiKeKMnm06/xPLzriVK9nbhd89jTPA/1muWp3nHY11ovGB4ZvmK4tpa1cOD4R4uPHa8o9lLHWymEe9xKYVJzkoINXj/bjzniF4ZsVdpKwSqX7iIVTMGzPN5/FYBfmd9lnQSMKK11Q3cZ5H7vl9TI/Pp2iwin3MTtU37wOiF8Wa9C4h9kAvVlsxwj/pskuotgUaB/WMQIrOdg7avuTUP7K8868nME/o/NklvlJTdqlMQqSQA3+9yePpE5UHB9KrNVVoYXZutgvV/rKZf0Q9b/tjP/xxq/7uPvxP/Jxl9RP7V+i3kT/1rQrzBv/M95/ZOifK9HD3gQf0z0B//o+fL4oILpvRpNY8xnM3Xm3qY2YaZYi3g8EKapocDf+fM5ICPN4C3PN5s814Tfsee/GziY8/8wLVF9CDDsbwQ4mU8aWwu8EHjGczRfAf5C+O7LWawwfx0o+7KVghzMkR7gcD6B/ZXmkwX0qVgT+nsuPH8npI+XfB8Dvl9SQaEc6sdCf+HtgPYjsKXAY56jCV2QA15mmH8iXcNLjoq9UK2/CbUVAs8E3ltv/8R+ADBAwUY=:9033
-        ^FT81,64^A0N,48,48^FH\^FD{dwo_label.assigned_tech}^FS
+        ^FT81,64^A0N,48,48^FH\\^FD{dwo_label.assigned_tech}^FS
         ^FT14,808^BQN,2,5
-        ^FH\^FDLA,{dwo_label.task_url}^FS
-        ^FT209,608^A0R,33,33^FH\^FD{dwo_label.task}^FS
-        ^FT76,568^A0N,18,16^FH\^FDPrinters^FS
-        ^FT205,568^A0N,18,16^FH\^FDLWS^FS
-        ^FT307,526^A0N,18,16^FH\^FDPortal^FS
-        ^FT307,568^A0N,18,16^FH\^FDWLAN^FS
-        ^FT76,526^A0N,18,16^FH\^FDWindows^FS
-        ^FT205,526^A0N,18,16^FH\^FDDell^FS
+        ^FH\\^FDLA,{dwo_label.task_url}^FS
+        ^FT209,608^A0R,33,33^FH\\^FD{dwo_label.task}^FS
+        ^FT74,570^A0N,23,24^FH\\^FDPrinters^FS
+        ^FT212,570^A0N,23,24^FH\\^FDLWS^FS
+        ^FT306,528^A0N,23,24^FH\\^FDPortal^FS
+        ^FT305,570^A0N,23,24^FH\\^FDWLAN^FS
+        ^FT74,528^A0N,23,24^FH\\^FDWindows^FS
+        ^FT212,528^A0N,23,24^FH\\^FDDell^FS
         ^FO20,82^GB365,0,2^FS
         ^FO20,194^GB365,0,2^FS
         ^FO20,310^GB365,0,2^FS
-        ^FT20,375^A@N,23,22,TT0003M_^FH\^CI17^F8^FD{dwo_label.recipient}^FS^CI0
-        ^FT20,411^A0N,23,24^FH\^FDLocation:^FS
-        ^FO20,439^A@N,23,22,TT0003M_^FB370,2,5,L,0\^CI17^F8^FD{dwo_label.location_room}^FS^CI0
+        ^FT20,375^A@N,23,22,TT0003M_^FH\\^CI17^F8^FD{dwo_label.recipient}^FS^CI0
+        ^FT20,411^A0N,23,24^FH\\^FDLocation:^FS
+        ^FO20,439^A@N,23,22,TT0003M_^FB370,2,5,L,0\\^CI17^F8^FD{dwo_label.location_room}^FS^CI0
         ^FO20,588^GB365,0,2^FS
-        ^FT185,136^A0N,37,36^FH\^FD{dwo_label.new_device}^FS
+        ^FT185,136^A0N,37,36^FH\\^FD{dwo_label.new_device}^FS
         ^FT117,181^BQN,2,3
-        ^FH\^FDLA,{dwo_label.new_device}^FS
-        ^FT185,174^A0N,37,36^FH\^FD{dwo_label.new_asset}^FS
-        ^FT25,159^A0N,42,45^FH\^FDNew^FS
-        ^FT185,250^A0N,37,36^FH\^FD{dwo_label.old_device}^FS
+        ^FH\\^FDLA,{dwo_label.new_device}^FS
+        ^FT185,174^A0N,37,36^FH\\^FD{dwo_label.new_asset}^FS
+        ^FT25,159^A0N,42,45^FH\\^FDNew^FS
+        ^FT185,250^A0N,37,36^FH\\^FD{dwo_label.old_device}^FS
         ^FT117,295^BQN,2,3
-        ^FH\^FDLA,{dwo_label.old_device}^FS
-        ^FT33,273^A0N,42,45^FH\^FDOld^FS
-        ^FT185,288^A0N,37,36^FH\^FD{dwo_label.old_asset}^FS
+        ^FH\\^FDLA,{dwo_label.old_device}^FS
+        ^FT33,273^A0N,42,45^FH\\^FDOld^FS
+        ^FT185,288^A0N,37,36^FH\\^FD{dwo_label.old_asset}^FS
         ^PQ1,0,1,Y^XZ
         """).strip()
     send_zpl_to_network_printer("DFJ240906078", label2)
