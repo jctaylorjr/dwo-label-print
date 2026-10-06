@@ -120,7 +120,7 @@ def print_dwo_label(dwo_label: DWO_Label):
         """).strip()
 
     label2 = dedent(f"""
-        CT~~CD,~CC^~CT~
+        CT~~CD,~CC^~CT~
         ^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4~SD15^JUS^LRN^CI0^XZ
         ^XA
         ^MMT
@@ -160,9 +160,10 @@ def print_dwo_label(dwo_label: DWO_Label):
         ^FO20,82^GB365,0,2^FS
         ^FO20,194^GB365,0,2^FS
         ^FO20,310^GB365,0,2^FS
+        ^FO20,488^GB365,0,2^FS
         ^FT20,375^A@N,23,22,TT0003M_^FH\\^CI17^F8^FD{dwo_label.recipient}^FS^CI0
         ^FT20,411^A0N,23,24^FH\\^FDLocation:^FS
-        ^FO20,439^A@N,23,22,TT0003M_^FB370,2,5,L,0\\^CI17^F8^FD{dwo_label.location_room}^FS^CI0
+        ^FO20,425^A@N,23,22,TT0003M_^FB370,2,5,L,0\\^CI17^F8^FD{dwo_label.location_room}^FS^CI0
         ^FO20,588^GB365,0,2^FS
         ^FT185,136^A0N,37,36^FH\\^FD{dwo_label.new_device}^FS
         ^FT117,181^BQN,2,3
